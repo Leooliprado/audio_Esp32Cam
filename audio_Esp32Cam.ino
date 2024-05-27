@@ -44,7 +44,7 @@ void setup() {
 #ifdef DEBUG
   Serial.println("Fim Setup");
 #endif	
-  playerMP3.playFolder(2, 3); // Inicia a reprodução de uma música ao iniciar o dispositivo
+  playerMP3.playFolder(2, 1); // Inicia a reprodução de uma música ao iniciar o dispositivo
 }
 
 void loop() {
